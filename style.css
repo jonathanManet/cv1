@@ -1,0 +1,102 @@
+body {
+
+  background-repeat: repeat-y;
+  background-image: url("img/img2.jpg");
+  background-size:1400px 320px;
+  /*background-size: cover;*/
+  /*background-blend-mode:darken;*/
+  display: block;
+  }
+.conteneur {
+  height: auto;
+  width:1250px;
+}
+
+
+img[src="img/manet.jpg"]{
+   height: 220px;
+   width: 220px;
+   border-radius: 60%;
+   border-color: black;
+   border-top-style: groove;
+   display: block;
+   margin: auto;
+   position:relative;
+}
+
+.nom {
+  font-style: normal;
+  font-family: serif,Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-display: block;
+  color: white;
+
+}
+.metier {
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif,sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-display: block;
+}
+
+.formation {
+  height: 300PX;
+  width: 50%;
+  border-radius: 15px;
+  padding-left: 5px;
+  /*background-color: #CCCCCC;*/
+  background-color: #BF821F;
+  float: left;
+  position:relative;
+  border-style: double;
+}
+
+.competence {
+  float: right;
+  height: 300px;
+  font-family: Arial;
+  width: 48%;
+  padding-left: 7px;
+  background-color:#BF821F;
+  /*background-color: #CCCCCC;*/
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border-style: double;
+
+}
+.langue {
+   position: absolute;;
+   top: 0;
+   padding-left: 350px;
+   /*right:5;*/
+   }
+.details {
+  width: 98% ;
+  height: 210px;
+  font-family: fantasy;
+  background-color: black;
+  clear: both;
+  padding: 30px 10px 0 10px;
+  /*margin-left: auto;*/
+  /*padding-left: 5px;*/
+  color: white;
+  border-radius: 15px;
+  border-style: double;
+}
+
+.footer {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  background-color:#BF821F;
+  border-radius: 15px;
+  /*background-color: #CCCCCC;*/
+  margin-top: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 100%;
+}
